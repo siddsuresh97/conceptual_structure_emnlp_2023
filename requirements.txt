@@ -1,0 +1,12 @@
+pandas
+datasets
+openai
+transformers
+transformers[sentencepiece]
+inflect
+pickle5
+sentencepiece
+accelerate
+ipykernel
+einops
+xformers

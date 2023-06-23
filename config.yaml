@@ -1,0 +1,19 @@
+model_pipeline:
+  - llama-7b
+  - alpaca-7b
+  - falcon-7b
+model_decode:
+  - flan-ul2
+  - flan-t5-xl
+  - flan-t5-xxl
+
+openai_azure: true
+gpts:
+  - text-davinci-002
+  - text-davinci-003
+  - gpt-3.5-turbo
+  - gpt-4
+gpts_deployment:
+    - gpt-semantics # text-davinci-002
+    - text-davinci-003 # text-davinci-003
+    - gpt-35-turbo # gpt-3.5-turbo
